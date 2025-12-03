@@ -10,10 +10,12 @@ const indice = (arr) => {
     if (arr[i] < arr[indiceMenor]) indiceMenor = i;
   }
 
-  return `Da lista ${arr},\no índice menor é o número da posição ${indiceMenor} e o maior é o número da posição ${indiceMaior}`
+  return `${indiceMenor}, ${indiceMaior}`
 
 }
 
 lista = [10, 5, 22, 3, 7] // exemplo de array
 
-console.log(indice(lista))
+// console.log(indice(lista))
+
+module.exports = { indice }

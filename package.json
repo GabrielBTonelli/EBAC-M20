@@ -1,0 +1,24 @@
+{
+  "name": "ebac-m21-tdd-com-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indices.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielBTonelli/EBAC-M20.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GabrielBTonelli/EBAC-M20/issues"
+  },
+  "homepage": "https://github.com/GabrielBTonelli/EBAC-M20#readme",
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}
