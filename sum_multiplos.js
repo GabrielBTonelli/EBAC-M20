@@ -10,8 +10,8 @@ function somaMultiplos(a, b) {
       multiplos.push(i);
     }
   }
-  //RETORNA A LISTA DOS MÚLTIPLOS E A SOMA DESTES ---> return `Os números múltiplos de ${a} e ${b} são:\n[${multiplos}]\n\nA soma destes múltiplos é: ${soma}` 
-  return `A soma destes múltiplos é: ${soma}`
+  //RETORNA A LISTA DOS MÚLTIPLOS E A SOMA DESTES ---> return `Os números múltiplos de ${a} e ${b} são:\n[${multiplos}]\n\nA soma destes múltiplos é: ${soma}`
+  return `${soma}`;
 }
 
-console.log(somaMultiplos(5,7))
+module.exports = { somaMultiplos };
