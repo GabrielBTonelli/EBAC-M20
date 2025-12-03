@@ -1,10 +1,14 @@
 // Exercício 1: Calcule o MDC (máximo divisor comum) entre dois números.
 
 function mdc(a, b) {
-    let resto = a % b;
-    a = b;
-    b = resto;
-  return `O máximo divisor comum é ${a}!`;
+  while (b !== 0) {
+    let temp = b;
+    b = a % b;
+    a = temp;
+  }
+  return `${a}`;
 }
 
-console.log(mdc(20, 28));
+// console.log(mdc(20, 28));
+
+module.exports = { mdc }
